@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.selected {
+    background: rgb(226, 226, 226);
+    color: rgb(0, 0, 41);
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.fade-in.show {
+    opacity: 1;
+}

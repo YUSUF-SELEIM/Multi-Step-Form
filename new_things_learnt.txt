@@ -1,0 +1,15 @@
+setting the body to h-screen gives it 100vh 
+so that the bg image could take the full height
+
+generally bg images are set onto the section tag
+big whole outer container
+
+
+when the flex items are too big they cannot be justified or
+aligned thus i had to delete that container class
+written with the flex container div
+to give the children some space to be centered and aligned
+
+
+i had to set each flex child to grow so that it could take 
+the full width
