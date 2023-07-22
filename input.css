@@ -15,3 +15,11 @@
 .fade-in.show {
     opacity: 1;
 }
+
+.mobile-image {
+    background-image: url(./assets/images/bg-sidebar-mobile.svg);
+}
+
+.desktop-image {
+    background-image: url(./assets/images/bg-sidebar-desktop.svg);
+}
