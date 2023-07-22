@@ -1243,7 +1243,11 @@ input[type="range"]::-ms-fill-lower {
 }
 
 .mobile-image {
-  background-image: url(../../assets/images/bg-sidebar-mobile.svg);
+  background-image: url(./assets/images/bg-sidebar-mobile.png);
+}
+
+.desktop-image {
+  background-image: url(./assets/images/bg-sidebar-desktop.png);
 }
 
 .after\:absolute::after {
@@ -1529,10 +1533,6 @@ input[type="range"]::-ms-fill-lower {
     --tw-space-y-reverse: 0;
     margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-  }
-
-  .md\:bg-\[url\(\'\/assets\/images\/bg-sidebar-desktop\.svg\'\)\] {
-    background-image: url('/assets/images/bg-sidebar-desktop.svg');
   }
 
   .md\:p-2 {
