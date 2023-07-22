@@ -1243,11 +1243,11 @@ input[type="range"]::-ms-fill-lower {
 }
 
 .mobile-image {
-  background-image: url(./assets/images/bg-sidebar-mobile.png);
+  background-image: url(../../assets/images/bg-sidebar-mobile.svg);
 }
 
 .desktop-image {
-  background-image: url(./assets/images/bg-sidebar-desktop.png);
+  background-image: url(../../assets/images/bg-sidebar-desktop.svg);
 }
 
 .after\:absolute::after {
